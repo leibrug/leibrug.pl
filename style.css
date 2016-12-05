@@ -1,9 +1,9 @@
 /*
-	Theme Name:		Leibrug.pl
-	Description:	Leibrug.pl custom theme
-	Author:			Michał Gurbiel
-	Author URI:		http://leibrug.pl
-	Template:		twentyfifteen
+  Theme Name:   Leibrug.pl
+  Description:  Leibrug.pl custom theme
+  Author:       Michał Gurbiel
+  Author URI:   http://leibrug.pl
+  Template:     twentyfifteen
 */
 
 
@@ -14,153 +14,153 @@
 .page-content a,
 .comment-content a,
 .pingback .comment-body > a {
-	hyphens: none;
+  hyphens: none;
 }
 
 
 /* CV page */
 
 .page-cv {
-	padding: 15px;
+  padding: 15px;
 }
 
 .page-cv ul,
 .cv-experience p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .page-cv ul {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .page-cv h2 {
-	font-size: 1.1em;
-	text-align: center;
-	letter-spacing: 1px;
-	border-bottom: 3px solid;
-	margin: 1.2em 0 .6em;
-	padding: 0 0 .2em;
+  font-size: 1.1em;
+  text-align: center;
+  letter-spacing: 1px;
+  border-bottom: 3px solid;
+  margin: 1.2em 0 .6em;
+  padding: 0 0 .2em;
 }
 
 .page-cv h3 {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 .cv-skills span,
 .cv-experience p,
 .cv-links li span {
-	font-size: .8em;
-	font-style: italic;
-	color: #666;
+  font-size: .8em;
+  font-style: italic;
+  color: #666;
 }
 
 .page-cv a {
-	color: #60b1aa;
-	text-decoration: underline;
+  color: #60b1aa;
+  text-decoration: underline;
 }
 
 .cv-contact {
-	text-align: center;
+  text-align: center;
 }
 
 .cv-summary {
-	margin-top: 1.2em;
-	padding: 0 0 .6em;
-	border-bottom: 3px solid;
-	border-color: #666;
-	color: #666;
+  margin-top: 1.2em;
+  padding: 0 0 .6em;
+  border-bottom: 3px solid;
+  border-color: #666;
+  color: #666;
 }
 
 .cv-skills h2 {
-	border-color: #323a61;
+  border-color: #323a61;
 }
 
 .cv-skills li {
-	list-style: none;
-	display: inline-block;
-	vertical-align: top;
-	line-height: 1.2;
-	width: 50%;
-	padding-right: 5%;
-	margin: 0px 0px 0.6em;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.2;
+  width: 50%;
+  padding-right: 5%;
+  margin: 0px 0px 0.6em;
 }
 
 .cv-experience {
-	margin-top: -.6em;
+  margin-top: -.6em;
 }
 
 .cv-experience h2 {
-	border-color: #5d8759;
+  border-color: #5d8759;
 }
 
 .cv-experience h3 {
-	margin: .6em 0 0;
+  margin: .6em 0 0;
 }
 
 .cv-experience ul {
-	padding: 0 0 0 2em;
+  padding: 0 0 0 2em;
 }
 
 .cv-personal h2:first-of-type {
-	border-color: #95b053;
+  border-color: #95b053;
 }
 
 .cv-personal h2:last-of-type {
-	border-color: #d7af40;
+  border-color: #d7af40;
 }
 
 .cv-personal li {
-	list-style: none;
+  list-style: none;
 }
 
 .cv-links h2 {
-	border-color: #60b1aa;
+  border-color: #60b1aa;
 }
 
 .cv-links li {
-	list-style: none;
-	line-height: 1.4;
-	margin: 0 0 .6em;
+  list-style: none;
+  line-height: 1.4;
+  margin: 0 0 .6em;
 }
 
 @media (min-width: 768px) {
 
-	.page-cv {
-		padding: 30px;
-	}
+  .page-cv {
+    padding: 30px;
+  }
 
-	.page-cv > div:nth-child(3),
-	.page-cv > div:last-child {
-		clear: both;
-	}
+  .page-cv > div:nth-child(3),
+  .page-cv > div:last-child {
+    clear: both;
+  }
 
-	.cv-summary {
-		margin-top: 0;
-	}
+  .cv-summary {
+    margin-top: 0;
+  }
 
-	.cv-contact {
-		text-align: left;
-		width: 46%;
-		float: left;
-	}
+  .cv-contact {
+    text-align: left;
+    width: 46%;
+    float: left;
+  }
 
-	.cv-summary {
-		width: 46%;
-		float: right;
-	}
+  .cv-summary {
+    width: 46%;
+    float: right;
+  }
 
-	.cv-skills li {
-		width: 25%;
-	}
+  .cv-skills li {
+    width: 25%;
+  }
 
-	.cv-personal {
-		width: 46%;
-		float: left;
-	}
+  .cv-personal {
+    width: 46%;
+    float: left;
+  }
 
-	.cv-links {
-		width: 46%;
-		float: right;
-	}
+  .cv-links {
+    width: 46%;
+    float: right;
+  }
 
 }
