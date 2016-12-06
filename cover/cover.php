@@ -21,21 +21,21 @@
         <h2>Work</h2>
         <ul>
           <li>
-            <a href="#">Cinema Citizen</a><small>web</small>
+            <a href="http://leibrug.pl/blog/cinema-citizen/">Cinema Citizen</a><small>web</small>
             <p>
               Movie marathon planning app.<br>
               <a href="http://cctzn.leibrug.pl">http://cctzn.leibrug.pl</a>
             </p>
           </li>
           <li>
-            <a href="#">Na swoim</a><small>web</small>
+            <a href="http://leibrug.pl/blog/na-swoim/">Na swoim</a><small>web</small>
             <p>
               Real estate website for Lublin developer.<br>
               <a href="http://naswoim.lublin.pl">http://naswoim.lublin.pl</a>
             </p>
           </li>
           <li>
-            <a href="#">licytujkase.pl rebranding</a><small>gfx</small>
+            <a href="http://leibrug.pl/blog/licytujkase-pl-rebranding/">licytujkase.pl rebranding</a><small>gfx</small>
             <p>
               New logo for All-pay games website.
             </p>
@@ -46,13 +46,17 @@
         </p>
       </section>
       <section>
+        <?php
+          $cover_recent_posts = wp_get_recent_posts(
+            'numberposts' => 5,
+            'category' => 7
+          );
+        ?>
         <h2>Blog</h2>
         <ul>
-          <li><a href="http://leibrug.pl/blog/my-year-away-from-full-time-web-development-work/">My year away from full-time web development work</a></li>
-          <li><a href="http://leibrug.pl/blog/enhance-your-media-with-canvas-over-technique/">Enhance your media with Canvas Over technique</a></li>
-          <li><a href="http://leibrug.pl/blog/minimum-html/">Minimum HTML</a></li>
-          <li><a href="http://leibrug.pl/blog/cctzn-goes-open-source/">CCtzn goes open source</a></li>
-          <li><a href="http://leibrug.pl/blog/when-jaws-wont-read-form-labels-on-ie/">When JAWS won’t read form labels on IE</a></li>
+          <?php foreach ($cover_recent_posts as $post) { ?>
+          <li><a href="<?php echo get_permalink($post["ID"]); ?>"><?php echo $post["post_title"]; ?></a></li>
+          <?php } ?>
           </ul>
         <p>
           <a href="http://leibrug.pl/blog/category/blog/">See all posts</a>
