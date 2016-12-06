@@ -1,4 +1,4 @@
-.front {
+.cover {
   font-size: 18px;
   margin: 0;
   padding: .5em;
@@ -14,49 +14,49 @@
   overflow-y: auto;
 }
 
-.front * {
+.cover * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.front ::-moz-selection {
+.cover ::-moz-selection {
   color: #fff;
   background: #333;
   text-shadow: none;
 }
 
-.front ::selection {
+.cover ::selection {
   color: #fff;
   background: #333;
   text-shadow: none;
 }
 
-.front h2 {
+.cover h2 {
   font-size: 1.5em;
   font-weight: normal;
   margin-bottom: calc(2em / 3);
 }
 
-.front a {
+.cover a {
   color: #333;
 }
 
-.front ul {
+.cover ul {
   padding-left: 1em;
 }
 
-.front header p {
+.cover header p {
   text-shadow: 0 2px 4px #ccc;
   margin: 1em 0;
 }
 
-.front section {
+.cover section {
   background: #fff;
   padding: .75em 1em 1em;
 }
 
-.front section small {
+.cover section small {
   display: inline-block;
   vertical-align: middle;
   font-size: .6em;
@@ -67,54 +67,54 @@
   border-radius: 4px;
 }
 
-.front section li p {
+.cover section li p {
   font-size: .8em;
 }
 
-.front section:first-child li + li {
+.cover section:first-child li + li {
   margin-top: .5em;
 }
 
-.front section ul + p {
+.cover section ul + p {
   margin-top: 1em;
   text-align: right;
 }
 
-.front section + section {
+.cover section + section {
   border-top: 1px solid #ccc;
 }
 
-.front section:last-child {
+.cover section:last-child {
   margin-bottom: .5em;
 }
 
 @media screen and (min-width: 768px) {
-  .front header,
-  .front main {
+  .cover header,
+  .cover main {
     width: calc(90% + 1em);
     max-width: 1600px;
     margin: 2em auto;
   }
 
-  .front header {
+  .cover header {
     display: flex;
     align-items: center;
   }
 
-  .front header p {
+  .cover header p {
     flex: 1;
     font-size: 1.5em;
     margin-left: calc(4em / 3);
   }
 
-  .front main > div {
+  .cover main > div {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     width: 75%;
   }
 
-  .front section {
+  .cover section {
     flex: 1;
     min-width: 360px;
     margin-right: 2em;
