@@ -46,6 +46,10 @@
   padding-left: 1em;
 }
 
+.cover header img {
+  display: block;
+}
+
 .cover header p {
   text-shadow: 0 2px 4px #ccc;
   margin: 1em 0;
