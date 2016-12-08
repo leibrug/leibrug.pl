@@ -47,10 +47,10 @@
       </section>
       <section>
         <?php
-          $cover_recent_posts = wp_get_recent_posts(
+          $cover_recent_posts = wp_get_recent_posts(array(
             'numberposts' => 5,
             'category' => 7
-          );
+          ));
         ?>
         <h2>Blog</h2>
         <ul>
