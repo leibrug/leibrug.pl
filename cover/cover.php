@@ -75,11 +75,14 @@
     </div>
   </main>
   <script>
-    $(function() {
-      $('#avatar, #seall').on('click', function(e) {
-        e.preventDefault();
-        $('#front').hide();
+    (function($) {
+      $(function() {
+        $('#avatar, #seall').on('click', function(e) {
+          e.preventDefault();
+          $('#cover').hide();
+          $('html').css('overflow-y', 'auto');
+        });
       });
-    });
+    }(jQuery));
   </script>
 </div>

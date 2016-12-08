@@ -1,3 +1,7 @@
+html {
+  overflow-y: hidden;
+}
+
 .cover {
   font-size: 18px;
   margin: 0;
@@ -12,6 +16,7 @@
   left: 0;
   right: 0;
   overflow-y: auto;
+  z-index: 1;
 }
 
 .cover * {
@@ -30,6 +35,10 @@
   color: #fff;
   background: #333;
   text-shadow: none;
+}
+
+.cover a {
+  text-decoration: underline;
 }
 
 .cover h2 {
