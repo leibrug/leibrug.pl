@@ -46,17 +46,17 @@
         </p>
       </section>
       <section>
-        <?php
-          $cover_recent_posts = wp_get_recent_posts(array(
-            'numberposts' => 5,
-            'category' => 7
-          ));
-        ?>
+<?php
+  $cover_recent_posts = wp_get_recent_posts(array(
+    'numberposts' => 5,
+    'category' => 7
+  ));
+?>
         <h2>Blog</h2>
         <ul>
-          <?php foreach ($cover_recent_posts as $post) { ?>
+<?php foreach ($cover_recent_posts as $post) { ?>
           <li><a href="<?php echo get_permalink($post["ID"]); ?>"><?php echo $post["post_title"]; ?></a></li>
-          <?php } ?>
+<?php } ?>
           </ul>
         <p>
           <a href="http://leibrug.pl/blog/category/blog/">See all posts</a>
