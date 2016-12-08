@@ -9,9 +9,9 @@
     </svg>
     <a href="http://leibrug.pl" id="avatar">
       <img style="clip-path:url(#round);"
-           src="michal-gurbiel-avatar.jpg"
-           srcset="michal-gurbiel-avatar.jpg 1x,
-                   michal-gurbiel-avatar-2x.jpg 2x">
+           src="<?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar.jpg"
+           srcset="<?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar.jpg 1x,
+                   <?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar-2x.jpg 2x">
     </a>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum sapien nunc, pretium euismod purus dignissim a. Aliquam risus libero, volutpat id tellus aliquam, accumsan rutrum odio.</p>
   </header>
