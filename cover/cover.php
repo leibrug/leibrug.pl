@@ -13,7 +13,7 @@
            srcset="<?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar.jpg 1x,
                    <?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar-2x.jpg 2x">
     </a>
-    <p><strong>Hi!</strong> I am MichaÅ‚ Gurbiel, web developer from Poland. Welcome to my homepage, where I share things I made and write about front-end technology and career.</p>
+    <p><strong>Hi!</strong> I am Michał‚ Gurbiel, web developer from Poland. Welcome to my homepage, where I share things I made and write about front-end technology and career.</p>
   </header>
   <main>
     <div>
