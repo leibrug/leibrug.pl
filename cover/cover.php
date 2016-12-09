@@ -13,7 +13,7 @@
            srcset="<?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar.jpg 1x,
                    <?php echo get_stylesheet_directory_uri(); ?>/cover/michal-gurbiel-avatar-2x.jpg 2x">
     </a>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum sapien nunc, pretium euismod purus dignissim a. Aliquam risus libero, volutpat id tellus aliquam, accumsan rutrum odio.</p>
+    <p><strong>Hi!</strong> I am MichaÅ‚ Gurbiel, web developer from Poland. Welcome to my homepage, where I share things I made and write about front-end technology and career.</p>
   </header>
   <main>
     <div>
@@ -23,21 +23,21 @@
           <li>
             <a href="http://leibrug.pl/blog/cinema-citizen/">Cinema Citizen</a><small>web</small>
             <p>
-              Movie marathon planning app.<br>
+              Movie marathon planning app<br>
               <a href="http://cctzn.leibrug.pl">http://cctzn.leibrug.pl</a>
             </p>
           </li>
           <li>
             <a href="http://leibrug.pl/blog/na-swoim/">Na swoim</a><small>web</small>
             <p>
-              Real estate website for Lublin developer.<br>
+              Real estate website for Lublin developer<br>
               <a href="http://naswoim.lublin.pl">http://naswoim.lublin.pl</a>
             </p>
           </li>
           <li>
             <a href="http://leibrug.pl/blog/licytujkase-pl-rebranding/">licytujkase.pl rebranding</a><small>gfx</small>
             <p>
-              New logo for All-pay games website.
+              New logo for All-pay games website
             </p>
           </li>
         </ul>
