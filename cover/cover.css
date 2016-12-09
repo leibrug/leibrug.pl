@@ -51,6 +51,10 @@ html {
   padding-left: 1em;
 }
 
+.cover header svg {
+  position: absolute;
+}
+
 .cover header img {
   display: block;
 }
